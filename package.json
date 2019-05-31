@@ -1,0 +1,12 @@
+{
+  "name": "electron-demo",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/littlecold233/electron-demo",
+  "devDependencies": {
+    "electron": "^4.0.3"
+  }
+}
