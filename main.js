@@ -6,7 +6,7 @@ async function main () {
   let forceQuit = false;
 
   const majorWindow = new BrowserWindow({
-    title: '微信客户端',
+    title: '主窗口',
     width: 1000,
     height: 750,
     minWidth: 1000,
@@ -48,7 +48,7 @@ async function main () {
   
   app.dock.setIcon('./img/icon.png'); // 在app打包后，这一句代码其实是不需要的
 
-  majorWindow.loadURL('https://wx.qq.com'); // http协议加载前端资源
+  majorWindow.loadURL('https://wx.qq.com'); // http协议加载前端资源，随便加载一个微信试试
   // majorWindow.loadURL('file://index.html'); // file协议加载前端资源
 
 }
